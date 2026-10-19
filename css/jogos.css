@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #111;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+}
+
+
+/* MENU */
+
+header {
+    background-color: #050505;
+
+    padding: 20px 50px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-bottom: 2px solid #333;
+}
+
+
+.logo a {
+    color: white;
+
+    text-decoration: none;
+}
+
+
+.logo strong {
+    font-size: 25px;
+}
+
+
+.logo small {
+    color: #aaa;
+
+    font-size: 14px;
+}
+
+
+nav ul {
+    display: flex;
+
+    list-style: none;
+
+    gap: 25px;
+}
+
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 16px;
+}
+
+
+nav a:hover {
+    color: #aaa;
+}
+
+
+/* CONTEÚDO */
+
+main {
+    width: 90%;
+
+    max-width: 1000px;
+
+    margin: 40px auto;
+}
+
+
+h1 {
+    font-size: 38px;
+
+    margin-bottom: 10px;
+}
+
+
+.subtitulo {
+    color: #aaa;
+
+    margin-bottom: 40px;
+}
+
+
+/* JOGOS */
+
+.jogo {
+    background-color: #1c1c1c;
+
+    padding: 25px;
+
+    margin-bottom: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px black;
+}
+
+
+.jogo h2 {
+    margin-bottom: 20px;
+}
+
+
+.jogo img {
+    width: 300px;
+
+    max-width: 100%;
+
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+.jogo p {
+    color: #ccc;
+
+    font-size: 18px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #050505;
+
+    padding: 25px;
+
+    margin-top: 50px;
+
+    color: #aaa;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+
+        gap: 15px;
+    }
+
+}
